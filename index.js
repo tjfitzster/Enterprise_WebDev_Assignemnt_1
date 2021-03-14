@@ -15,10 +15,13 @@ async function init() {
     await server.register(Vision);
     server.views({
         engines: {
-            hbs: Handlebars,
+            hbs: require('handlebars'),
         },
         relativeTo: __dirname,
         path: './app/views',
+        layoutPath: './app/views/layouts',
+        partialsPath: './app/views/partials',
+        layout: true,
         isCached: false,
     });
 
@@ -27,11 +30,13 @@ async function init() {
     console.log(`Server running at: ${server.info.uri}`);
 }
 
-
-
 process.on('unhandledRejection', (err) => {
     console.log(err);
     process.exit(1);
+});
+
+server.bind({
+    pois: [],
 });
 
 init();
