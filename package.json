@@ -1,0 +1,14 @@
+{
+  "name": "point-of-information",
+  "version": "1.0.1",
+  "description": "this is an attempt to design a point of information application using node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TJ Fitzpatrick",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
