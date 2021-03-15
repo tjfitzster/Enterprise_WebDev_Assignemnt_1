@@ -8,7 +8,17 @@ const showPOI = {
     },
     report: {
         handler: function (request, h) {
-            return h.view("report", { title: "POI's so far" });
+            return h.view("report", {
+                title: "POI's so far",
+                pois: this.pois,
+            });
+        },
+    },
+    poi: {
+        handler: function (request, h) {
+            const data = request.payload;
+            this.pois.push(data);
+            return h.redirect("/report");
         },
     },
 };

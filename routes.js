@@ -11,6 +11,7 @@ module.exports = [
     { method: "POST", path: "/login", config: Accounts.login },
     { method: "GET", path: "/home", config: showPOI.home },
     { method: "GET", path: "/report", config: showPOI.report },
+    { method: 'POST', path: '/POI', config: showPOI.poi },
     {
         method: "GET",
         path: "/{param*}",
