@@ -16,8 +16,9 @@ const showPOI = {
     },
     poi: {
         handler: function (request, h) {
-            let data = request.payload;
-            data.donor = this.currentUser;
+            const data = request.payload;
+            var contributorEmail = request.auth.credentials.id;
+            data.contributor = this.users[contributorEmail];
             this.pois.push(data);
             return h.redirect("/report");
         },

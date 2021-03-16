@@ -15,6 +15,7 @@ const POI = {
             return h.view('login', { title: 'Login to view Points Of Interest.' });
         },
     },
+
 };
 
 module.exports = POI;
