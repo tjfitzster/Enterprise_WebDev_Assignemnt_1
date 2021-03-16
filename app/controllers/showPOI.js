@@ -16,7 +16,8 @@ const showPOI = {
     },
     poi: {
         handler: function (request, h) {
-            const data = request.payload;
+            let data = request.payload;
+            data.donor = this.currentUser;
             this.pois.push(data);
             return h.redirect("/report");
         },

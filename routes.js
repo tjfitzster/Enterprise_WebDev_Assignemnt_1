@@ -20,5 +20,6 @@ module.exports = [
                 path: "./public",
             },
         },
+        options: { auth: false }
     },
 ];
