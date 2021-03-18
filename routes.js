@@ -3,6 +3,7 @@
 const Accounts = require("./app/controllers/accounts");
 const Donations = require("./app/controllers/donations");
 const POIs = require("./app/controllers/POI");
+const multer = require("multer");
 
 module.exports = [
     { method: "GET", path: "/", config: Accounts.index },
