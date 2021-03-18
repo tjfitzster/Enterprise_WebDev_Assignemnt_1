@@ -2,6 +2,7 @@
 
 const Accounts = require("./app/controllers/accounts");
 const Donations = require("./app/controllers/donations");
+const POIs = require("./app/controllers/POI");
 
 module.exports = [
     { method: "GET", path: "/", config: Accounts.index },
@@ -15,7 +16,9 @@ module.exports = [
 
     { method: "GET", path: "/home", config: Donations.home },
     { method: "POST", path: "/donate", config: Donations.donate },
-    { method: "GET", path: "/report", config: Donations.report },
+
+    { method: "GET", path: "/report", config: POIs.report },
+    { method: "POST", path: "/addpoi", config: POIs.addPoi },
 
     {
         method: "GET",
