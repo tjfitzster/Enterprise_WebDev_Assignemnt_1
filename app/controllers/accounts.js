@@ -62,10 +62,14 @@ const Accounts = {
         }
     },
     showSettings: {
-        handler: function(request, h) {
-            var donorEmail = request.auth.credentials.id;
-            const userDetails = this.users[donorEmail];
-            return h.view('settings', { title: 'Donation Settings', user: userDetails });
+        handler: async function(request, h) {
+            try {
+                const id = request.auth.credentials.id;
+                const user = await User.findById(id).lean();
+                return h.view("settings", { title: "Donation Settings", user: user });
+            } catch (err) {
+                return h.view("login", { errors: [{ message: err.message }] });
+            }
         }
     },
     updateSettings: {
