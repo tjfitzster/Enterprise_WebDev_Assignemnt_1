@@ -10,3 +10,5 @@
 <h3> License </h3>
 <h3> Contact </h3>
 <h3> Acknowledgements </h3>
+
+<h2> <u>About The Project</u> </h2>
