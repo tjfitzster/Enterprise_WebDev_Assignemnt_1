@@ -56,10 +56,11 @@ In this section I'm going to name the components I used to impliment the program
 <h1>  Prerequisites. </h1>
 
  In many node packages used, so there it was a simple NPM install. 
-<p>
-npm install Hapi. 
-npm install Inert.
-npm install Vision.
-npm install Boom.
-npm install Cookie.
-</p>
+
+<p> npm install Hapi. </p>
+<p> npm install Inert. </p>
+<p> npm install Vision. </p>
+<p> npm install Boom. </p>
+<p> npm install Cookie. </p>
+
+
