@@ -1,16 +1,12 @@
-
 <h1> Table of Contents </h1>
 <h3> About The Project </h3>
 <h3> Built With </h3>
-
-<h1> About The Project </h1>
-<h1> Built With </h1>
-<h1> Getting Started </h1>
-<h1> Prerequisites </h1>
-<h1> Installation </h1>
-<h1> Usage </h1>
-<h1> Roadmap </h1>
-<h1> Contributing </h1>
-<h1> License </h1>
-<h1> Contact </h1>
-<h1> Acknowledgements </h1>
+<h3> Getting Started </h3>
+<h3> Prerequisites </h3>
+<h3> Installation </h3>
+<h3> Usage </h3>
+<h3> Roadmap </h3>
+<h3> Contributing </h3>
+<h3> License </h3>
+<h3> Contact </h3>
+<h3> Acknowledgements </h3>
