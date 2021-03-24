@@ -3,10 +3,7 @@
 <h5> Built With </h5>
 <h5> Getting Started </h5>
 <h5> Prerequisites </h5>
-<h5> Installation </h5>
-<h5> Usage </h5>
 <h5> Roadmap </h5>
-<h5> Contributing </h5>
 <h5> License </h5>
 <h5> Contact </h5>
 <h5> Acknowledgements </h5>
@@ -65,6 +62,6 @@ In this section I'm going to name the components I used to impliment the program
 
 Infastructures were available at the following web address's: 
 
-<p> https://www.heroku.com/ </p>
-<p> https://www.mongodb.com/cloud/atlas </p>
-<p> https://glitch.com/ </p>
+<p> Heroku: https://www.heroku.com/ </p>
+<p> CloudAtlas: https://www.mongodb.com/cloud/atlas </p>
+<p> Glitch: https://glitch.com/ </p>
