@@ -11,7 +11,7 @@
 <h5> Contact </h5>
 <h5> Acknowledgements </h5>
 
-<h2>  About The Project. </h2>
+<h1>  About The Project. </h1>
 <p> The purpose of this project was to create a POI application for which informatino is available.
 
 Going somewhere new always starts with a search. 
