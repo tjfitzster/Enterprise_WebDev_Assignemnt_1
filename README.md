@@ -52,3 +52,14 @@ In this section I'm going to name the components I used to impliment the program
 	 Heroku. 
 	 Cloudatlas. 
 	 Glitch. 
+
+<h1>  Prerequisites. </h1>
+
+ In many node packages used, so there it was a simple NPM install. 
+<p>
+npm install Hapi. 
+npm install Inert.
+npm install Vision.
+npm install Boom.
+npm install Cookie.
+</p>
