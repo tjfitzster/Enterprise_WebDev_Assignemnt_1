@@ -1,12 +1,14 @@
 "use strict";
-const Donation = require("../models/donation");
 const POI = require("../models/poi");
 const User = require("../models/user");
+const ImageStore = require('../utils/image-store');
+
 
 const Poi = {
     home: {
-        handler: function(request, h) {
-            return h.view("home", { title: "Welcome to The POI Application" });
+        handler: async function(request, h) {
+            return h.view("home", { title: "Welcome to The POI Application"
+                                    });
         }
     },
     report: {
