@@ -19,3 +19,36 @@ Whether finding the newest restaurant in town or the nearest available electric 
 The users will likely expect – and appreciate – to find the POI location data they’re looking for in the app.
 
 POI data providers should offer easy access to reliable and detailed points of interest from trusted sources, to enable informed decision making.  </p>
+
+<h1>  Built With. </h1>
+
+In this section I'm going to name the components I used to impliment the program.
+   <h3> UI </h3>		 
+	Handlebars		
+	Mongoose	 
+	Coudinary
+	Hapi
+	Node
+	
+<h3> Components </h3>
+	Handlebars.
+	Mongoose.
+	Dotenv.
+	Cloudinary. 
+
+<h3> Framework </h3>
+	Hapi.
+	Inert.
+	Vision.
+	Boom.
+	Cookie. 
+
+<h3> Platforms </h3>
+	 Node. 
+	 Mongodb. 
+	 Cloudinary. 
+
+<h3> Infastructure </h3>
+	 Heroku. 
+	 Cloudatlas. 
+	 Glitch. 
