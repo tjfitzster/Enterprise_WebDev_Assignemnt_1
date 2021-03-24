@@ -12,10 +12,10 @@
 <h5> Acknowledgements </h5>
 
 <h1>  About The Project. </h1>
-<p> The purpose of this project was to create a POI application for which informatino is available.
+<p> The purpose of this project was to create a POI application for which information is available.
 
 Going somewhere new always starts with a search. 
 Whether finding the newest restaurant in town or the nearest available electric vehicle charging station, 
 The users will likely expect – and appreciate – to find the POI location data they’re looking for in the app.
 
-POI data providers should offer easy access to reliable and detailed points of interest from trusted sources, to enable informed decision making for both you and your end-users. </p>
+POI data providers should offer easy access to reliable and detailed points of interest from trusted sources, to enable informed decision making.  </p>
