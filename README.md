@@ -63,4 +63,8 @@ In this section I'm going to name the components I used to impliment the program
 <p> npm install Boom. </p>
 <p> npm install Cookie. </p>
 
+Infastructures were available at the following web address's: 
 
+<p> https://www.heroku.com/ </p>
+<p> https://www.mongodb.com/cloud/atlas </p>
+<p> https://glitch.com/ </p>
