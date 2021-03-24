@@ -1,15 +1,15 @@
 <h1> Table of Contents </h1>
-<h3> About The Project </h3>
-<h3> Built With </h3>
-<h3> Getting Started </h3>
-<h3> Prerequisites </h3>
-<h3> Installation </h3>
-<h3> Usage </h3>
-<h3> Roadmap </h3>
-<h3> Contributing </h3>
-<h3> License </h3>
-<h3> Contact </h3>
-<h3> Acknowledgements </h3>
+<h5> About The Project </h5>
+<h5> Built With </h5>
+<h5> Getting Started </h5>
+<h5> Prerequisites </h5>
+<h5> Installation </h5>
+<h5> Usage </h5>
+<h5> Roadmap </h5>
+<h5> Contributing </h5>
+<h5> License </h5>
+<h5> Contact </h5>
+<h5> Acknowledgements </h5>
 
 <h2>  About The Project. </h2>
 <p> The purpose of this project was to create a POI application for which informatino is available.
